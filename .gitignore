@@ -1,0 +1,38 @@
+# 编译输出
+build/
+main
+*.o
+*.out
+*.exe
+
+# CMake 生成文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CPackConfig.cmake
+CPackSourceConfig.cmake
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+
+# Crow 子模块/依赖生成
+Crow/build/
+Crow/CMakeFiles/
+Crow/CMakeCache.txt
+Crow/cmake_install.cmake
+Crow/compile_commands.json
+
+# VSCode/CLion等IDE配置
+.vscode/
+.idea/
+
+# 临时文件
+*.log
+*.tmp
+*.swp
+*~
+
+# Python脚本缓存
+__pycache__/
+*.pyc
